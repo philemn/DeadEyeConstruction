@@ -1192,15 +1192,45 @@ input::-moz-focus-inner {
   .section-intro h3 {
     font-size: 1.7rem;
   }
+
+  .about-btn {
+    display: none;
+    width: 100%;
+  }
+
+  .phone-btn {
+    display: inline-block;
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 500px) {
   .section-intro h3 {
     font-size: 1.5rem;
   }
+
+  .about-btn {
+    display: none;
+    width: 100%;
+  }
+
+  .phone-btn {
+    display: inline-block;
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 400px) {
   .section-intro h1 {
     font-size: 3.1rem;
+  }
+
+  .about-btn {
+    display: none;
+    width: 100%;
+  }
+
+  .phone-btn {
+    display: inline-block;
+    width: 100%;
   }
 }
 .wide {
@@ -2774,10 +2804,18 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     width: 100%;
     margin-top: 3.6rem;
   }
+
+  .contact-content .col-three, .contact-content .col-six {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 600px) {
   .contact-content {
     max-width: 480px;
+  }
+
+  .contact-content .col-three, .contact-content .col-six {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -2788,6 +2826,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     margin-left: 0;
     margin-right: 0;
     padding: 0;
+  }
+
+  .contact-content .col-three, .contact-content .col-six {
+    width: 100%;
   }
 }
 
